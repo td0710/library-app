@@ -6,12 +6,12 @@ import "./App.css";
 import { Heros } from "./layouts/HomePage/components/Heros";
 import { Footer } from "./layouts/NavbarAndFooter/Footer";
 import { HomePage } from "./layouts/HomePage/HomePage";
-
+import { SearchBooksPage } from "./layouts/NewBooksPage/NewBooksPage";
 export const App = () => {
   return (
     <div>
       <Navbar />
-      <HomePage></HomePage>
+      <SearchBooksPage></SearchBooksPage>
       <Footer></Footer>
     </div>
   );
