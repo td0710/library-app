@@ -11,6 +11,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Route } from "react-router-dom";
 import { Switch } from "react-router-dom";
 import { Redirect } from "react-router-dom";
+import { BookCheckoutPage } from "./BookCheckoutPage/BookCheckoutPage";
 export const App = () => {
   return (
     <div className="d-flex flex-column min-vh-100">
@@ -25,6 +26,9 @@ export const App = () => {
           </Route>
           <Route path="/search">
             <SearchBooksPage />
+          </Route>
+          <Route path="/checkout/:bookId">
+            <BookCheckoutPage />
           </Route>
         </Switch>
       </div>
