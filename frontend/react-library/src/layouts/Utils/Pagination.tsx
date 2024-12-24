@@ -4,6 +4,7 @@ export const Pagination: React.FC<{
   paginate: any;
 }> = (props) => {
   const pageNumbers = [];
+
   if (props.currentPage === 1) {
     pageNumbers.push(props.currentPage);
     if (props.totalPages >= props.currentPage + 1) {
@@ -29,6 +30,7 @@ export const Pagination: React.FC<{
       pageNumbers.push(props.currentPage + 2);
     }
   }
+
   return (
     <nav aria-label="...">
       <ul className="pagination">
@@ -37,9 +39,10 @@ export const Pagination: React.FC<{
         </li>
         {pageNumbers.map((number) => (
           <li
+            key={number}
             onClick={() => props.paginate(number)}
             className={
-              "page-item" + (props.currentPage === number ? "active" : "")
+              "page-item " + (props.currentPage === number ? "active" : "")
             }
           >
             <button className="page-link">{number}</button>
