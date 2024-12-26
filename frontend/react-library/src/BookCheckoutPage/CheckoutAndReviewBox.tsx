@@ -36,7 +36,7 @@ export const CheckoutAndReviewBox: React.FC<{
             </p>
           </div>
         </div>
-        <Link to="/#" className="btn btn-success btn-lg">
+        <Link to="/login" className="btn btn-success btn-lg">
           Sign in
         </Link>
         <hr />
