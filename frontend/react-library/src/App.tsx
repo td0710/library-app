@@ -16,6 +16,7 @@ import { OktaAuth, toRelativeUrl } from "@okta/okta-auth-js";
 import { LoginCallback, Security } from "@okta/okta-react";
 import LoginWidget from "./Auth/LoginWidget";
 import { useHistory } from "react-router-dom";
+import { ReviewListPage } from "./BookCheckoutPage/ReviewListPage/ReviewListPage";
 
 const oktaAuth = new OktaAuth(oktaConfig);
 
@@ -48,6 +49,9 @@ export const App = () => {
             </Route>
             <Route path="/search">
               <SearchBooksPage />
+            </Route>
+            <Route path="/reviewlist/:bookId">
+              <ReviewListPage></ReviewListPage>
             </Route>
             <Route path="/reviewlist/:bookId">
               <BookCheckoutPage />
