@@ -1,6 +1,9 @@
+import { useState } from "react";
+import { HistoryPage } from "./component/HistoryPage";
 import { Loans } from "./component/Loans";
 
 export const ShelfPage = () => {
+  const [historyClick, setHistoryClick] = useState(false);
   return (
     <div className="container">
       <div className="mt-3">
@@ -15,6 +18,7 @@ export const ShelfPage = () => {
               role="tab"
               aria-controls="nav-loans"
               aria-selected="true"
+              onClick={() => setHistoryClick(false)}
             >
               Loans
             </button>
@@ -27,6 +31,7 @@ export const ShelfPage = () => {
               role="tab"
               aria-controls="nav-history"
               aria-selected="false"
+              onClick={() => setHistoryClick(true)}
             >
               Your History
             </button>
@@ -47,7 +52,7 @@ export const ShelfPage = () => {
             role="tabpanel"
             aria-labelledby="nav-history-tab"
           >
-            <p>Checkout History</p>
+            {historyClick ? <HistoryPage /> : <></>}
           </div>
         </div>
       </div>
