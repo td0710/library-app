@@ -19,6 +19,7 @@ import { useHistory } from "react-router-dom";
 import { ReviewListPage } from "./BookCheckoutPage/ReviewListPage/ReviewListPage";
 import { ShelfPage } from "./ShelfPage/ShelfPage";
 import { MessagePage } from "./layouts/MessagesPage/MessagePage";
+import { ManageLibraryPage } from "./layouts/ManageLibraryPage/ManageLibraryPage";
 
 const oktaAuth = new OktaAuth(oktaConfig);
 
@@ -71,6 +72,9 @@ export const App = () => {
             </SecureRoute>
             <SecureRoute path="/messages">
               <MessagePage></MessagePage>
+            </SecureRoute>
+            <SecureRoute path="/admin">
+              <ManageLibraryPage></ManageLibraryPage>
             </SecureRoute>
           </Switch>
         </div>
