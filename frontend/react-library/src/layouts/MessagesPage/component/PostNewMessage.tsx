@@ -19,7 +19,7 @@ export const PostNewMessage = () => {
         method: "POST",
         headers: {
           Authorization: `Bearer ${authState?.accessToken?.accessToken}`,
-          "Content-type": "application/json",
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(messageRequestModel),
       };
