@@ -20,6 +20,7 @@ import { ReviewListPage } from "./BookCheckoutPage/ReviewListPage/ReviewListPage
 import { ShelfPage } from "./ShelfPage/ShelfPage";
 import { MessagePage } from "./layouts/MessagesPage/MessagePage";
 import { ManageLibraryPage } from "./layouts/ManageLibraryPage/ManageLibraryPage";
+import { PaymentPage } from "./layouts/PaymentPage/PaymentPage";
 
 const oktaAuth = new OktaAuth(oktaConfig);
 
@@ -75,6 +76,9 @@ export const App = () => {
             </SecureRoute>
             <SecureRoute path="/admin">
               <ManageLibraryPage></ManageLibraryPage>
+            </SecureRoute>
+            <SecureRoute path="/fees">
+              <PaymentPage></PaymentPage>
             </SecureRoute>
           </Switch>
         </div>

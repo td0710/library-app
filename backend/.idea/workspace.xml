@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="34ef0e79-b6be-4b0b-a171-28cfb305c48d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/example/spring_boot_library/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/example/spring_boot_library/dao/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/example/spring_boot_library/entity/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/example/spring_boot_library/requestmodels/PaymentInfoRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/example/spring_boot_library/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/new1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-library/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-library/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/example/spring_boot_library/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/example/spring_boot_library/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/example/spring_boot_library/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/example/spring_boot_library/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-library/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-library/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/react-library/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/react-library/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/react-library/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/react-library/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/react-library/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/react-library/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/react-library/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/react-library/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/react-library/src/BookCheckoutPage/BookCheckoutPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/react-library/src/BookCheckoutPage/BookCheckoutPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/react-library/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/react-library/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/react-library/src/layouts/NavbarAndFooter/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/react-library/src/layouts/NavbarAndFooter/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/0Harmony.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/AssetsTools.NET.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/Autofac.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/BinaryPack.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/DiscordGameSDKWrapper.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/JetBrains.Annotations.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/LZ4.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/LitJSON.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/LiteNetLib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/Microsoft.Win32.Registry.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/Microsoft.WindowsAPICodePack.Shell.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/Microsoft.WindowsAPICodePack.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/Mono.Cecil.Mdb.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/Mono.Cecil.Pdb.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/Mono.Cecil.Rocks.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/Mono.Cecil.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/Mono.Nat.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/MonoMod.RuntimeDetour.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/MonoMod.Utils.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/NitroxClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/NitroxClient.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/NitroxModel-Subnautica.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/NitroxModel-Subnautica.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/NitroxModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/NitroxModel.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/NitroxPatcher.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/NitroxPatcher.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/NitroxPatcher.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/NitroxServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/NitroxServer.dll.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/NitroxServer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/Serilog.Sinks.Async.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/Serilog.Sinks.File.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/Serilog.Sinks.Map.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/Serilog.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/System.Buffers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/System.Drawing.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/System.IO.FileSystem.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/System.Memory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/System.Numerics.Vectors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/ToastNotifications.Messages.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/ToastNotifications.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/WindowsFirewallHelper.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/discord_game_sdk.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/dnlib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java app/lib/protobuf-net.dll" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2rHkJEByvio3zmmwM37FgfLqhnl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.SpringBootLibraryApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/library-app/backend/spring-boot-library",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5275862",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SpringBootLibraryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot-library" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring_boot_library.SpringBootLibraryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34ef0e79-b6be-4b0b-a171-28cfb305c48d" name="Changes" comment="" />
+      <created>1736223316076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736223316076</updated>
+      <workItem from="1736223318798" duration="98000" />
+      <workItem from="1736223496700" duration="16000" />
+      <workItem from="1736223554971" duration="63000" />
+      <workItem from="1736223646789" duration="102000" />
+      <workItem from="1736223786246" duration="50000" />
+      <workItem from="1736223853765" duration="82000" />
+      <workItem from="1736223959275" duration="361000" />
+      <workItem from="1736224384793" duration="123000" />
+      <workItem from="1736225440036" duration="4416000" />
+      <workItem from="1736247519239" duration="336000" />
+      <workItem from="1736247870952" duration="950000" />
+      <workItem from="1736249246518" duration="6486000" />
+      <workItem from="1736301178108" duration="12935000" />
+      <workItem from="1736315084859" duration="23000" />
+      <workItem from="1736315122562" duration="139000" />
+      <workItem from="1736315318035" duration="22000" />
+      <workItem from="1736315355516" duration="95000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
